@@ -1,0 +1,683 @@
+[Sun Sep 18 03:46:03.022747 2016] [authz_core:error] [pid 13073] [client 5.167.92.244:62056] AH01630: client denied by server configuration: /web/siteproject/siteproject/deploy/django.wsgi
+[Sun Sep 18 03:59:01.213188 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342] mod_wsgi (pid=13231): Exception occurred processing WSGI script '/web/siteproject/siteproject/deploy/django.wsgi'.
+[Sun Sep 18 03:59:01.219409 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342] Traceback (most recent call last):
+[Sun Sep 18 03:59:01.219458 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3/dist-packages/django/core/handlers/wsgi.py", line 170, in __call__
+[Sun Sep 18 03:59:01.219463 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     self.load_middleware()
+[Sun Sep 18 03:59:01.219470 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 49, in load_middleware
+[Sun Sep 18 03:59:01.219473 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Sun Sep 18 03:59:01.219479 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 03:59:01.219482 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     self._setup(name)
+[Sun Sep 18 03:59:01.219488 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 03:59:01.219491 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 03:59:01.219496 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 03:59:01.219499 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 03:59:01.219505 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 03:59:01.219508 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 03:59:01.219514 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:59:01.219520 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:59:01.219526 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Sun Sep 18 03:59:01.219533 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 03:59:01.219539 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:59:01.219545 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:59:01.219551 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 03:59:01.219570 2016] [wsgi:error] [pid 13231] [client 5.167.92.244:64342] ImportError: No module named 'siteproject'
+[Sun Sep 18 03:59:31.428227 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440] mod_wsgi (pid=13234): Exception occurred processing WSGI script '/web/siteproject/siteproject/deploy/django.wsgi'.
+[Sun Sep 18 03:59:31.428892 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440] Traceback (most recent call last):
+[Sun Sep 18 03:59:31.428938 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3/dist-packages/django/core/handlers/wsgi.py", line 170, in __call__
+[Sun Sep 18 03:59:31.428943 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     self.load_middleware()
+[Sun Sep 18 03:59:31.428959 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 49, in load_middleware
+[Sun Sep 18 03:59:31.428963 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Sun Sep 18 03:59:31.428969 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 03:59:31.428972 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     self._setup(name)
+[Sun Sep 18 03:59:31.428977 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 03:59:31.428980 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 03:59:31.428986 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 03:59:31.428988 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 03:59:31.428994 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 03:59:31.428997 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 03:59:31.429002 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:59:31.429008 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:59:31.429014 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Sun Sep 18 03:59:31.429021 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 03:59:31.429026 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:59:31.429033 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:59:31.429039 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 03:59:31.429056 2016] [wsgi:error] [pid 13234] [client 5.167.92.244:64440] ImportError: No module named 'siteproject'
+[Sun Sep 18 10:31:47.263831 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517] mod_wsgi (pid=14445, process='', application='geolone.tk:777|'): Failed to parse WSGI script file '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 10:31:47.263879 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517] mod_wsgi (pid=14445): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 10:31:47.263937 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517]   File "/web/siteproject/siteproject/django.wsgi", line 4
+[Sun Sep 18 10:31:47.263951 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517]     if path not is sys.path:
+[Sun Sep 18 10:31:47.263971 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517]                  ^
+[Sun Sep 18 10:31:47.263980 2016] [wsgi:error] [pid 14445] [client 5.167.92.244:57517] SyntaxError: invalid syntax
+[Sun Sep 18 10:38:37.642548 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942] mod_wsgi (pid=14530): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 10:38:37.643299 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942] Traceback (most recent call last):
+[Sun Sep 18 10:38:37.643349 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3/dist-packages/django/core/handlers/wsgi.py", line 170, in __call__
+[Sun Sep 18 10:38:37.643354 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     self.load_middleware()
+[Sun Sep 18 10:38:37.643361 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 49, in load_middleware
+[Sun Sep 18 10:38:37.643364 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Sun Sep 18 10:38:37.643369 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 10:38:37.643372 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     self._setup(name)
+[Sun Sep 18 10:38:37.643378 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 10:38:37.643380 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 10:38:37.643386 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 10:38:37.643389 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 10:38:37.643394 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 10:38:37.643397 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 10:38:37.643402 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 10:38:37.643408 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 10:38:37.643414 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 10:38:37.643432 2016] [wsgi:error] [pid 14530] [client 5.167.92.244:59942] ImportError: No module named 'settings'
+[Sun Sep 18 02:42:51.872881 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] mod_wsgi (pid=14637): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 02:42:51.875064 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] Traceback (most recent call last):
+[Sun Sep 18 02:42:51.875090 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/urlresolvers.py", line 393, in urlconf_module
+[Sun Sep 18 02:42:51.875094 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return self._urlconf_module
+[Sun Sep 18 02:42:51.875110 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+[Sun Sep 18 02:42:51.875119 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875122 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] During handling of the above exception, another exception occurred:
+[Sun Sep 18 02:42:51.875124 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875130 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] Traceback (most recent call last):
+[Sun Sep 18 02:42:51.875167 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 119, in get_response
+[Sun Sep 18 02:42:51.875171 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     resolver_match = resolver.resolve(request.path_info)
+[Sun Sep 18 02:42:51.875178 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/urlresolvers.py", line 365, in resolve
+[Sun Sep 18 02:42:51.875187 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     for pattern in self.url_patterns:
+[Sun Sep 18 02:42:51.875194 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/urlresolvers.py", line 401, in url_patterns
+[Sun Sep 18 02:42:51.875196 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Sun Sep 18 02:42:51.875202 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+[Sun Sep 18 02:42:51.875205 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     self._urlconf_module = import_module(self.urlconf_name)
+[Sun Sep 18 02:42:51.875211 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 02:42:51.875213 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 02:42:51.875219 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 02:42:51.875225 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 02:42:51.875231 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Sun Sep 18 02:42:51.875237 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 02:42:51.875244 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 02:42:51.875250 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 02:42:51.875256 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 02:42:51.875268 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] ImportError: No module named 'siteproject'
+[Sun Sep 18 02:42:51.875276 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875278 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] During handling of the above exception, another exception occurred:
+[Sun Sep 18 02:42:51.875280 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875286 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] Traceback (most recent call last):
+[Sun Sep 18 02:42:51.875357 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 162, in _add_installed_apps_translations
+[Sun Sep 18 02:42:51.875365 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     app_configs = reversed(list(apps.get_app_configs()))
+[Sun Sep 18 02:42:51.875372 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 137, in get_app_configs
+[Sun Sep 18 02:42:51.875375 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     self.check_apps_ready()
+[Sun Sep 18 02:42:51.875380 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 124, in check_apps_ready
+[Sun Sep 18 02:42:51.875383 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     raise AppRegistryNotReady("Apps aren't loaded yet.")
+[Sun Sep 18 02:42:51.875396 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+[Sun Sep 18 02:42:51.875404 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875411 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] During handling of the above exception, another exception occurred:
+[Sun Sep 18 02:42:51.875413 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] 
+[Sun Sep 18 02:42:51.875419 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] Traceback (most recent call last):
+[Sun Sep 18 02:42:51.875489 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/handlers/wsgi.py", line 189, in __call__
+[Sun Sep 18 02:42:51.875494 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     response = self.get_response(request)
+[Sun Sep 18 02:42:51.875502 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 218, in get_response
+[Sun Sep 18 02:42:51.875505 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Sun Sep 18 02:42:51.875511 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 261, in handle_uncaught_exception
+[Sun Sep 18 02:42:51.875514 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return debug.technical_500_response(request, *exc_info)
+[Sun Sep 18 02:42:51.875520 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/views/debug.py", line 97, in technical_500_response
+[Sun Sep 18 02:42:51.875522 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     html = reporter.get_traceback_html()
+[Sun Sep 18 02:42:51.875528 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/views/debug.py", line 384, in get_traceback_html
+[Sun Sep 18 02:42:51.875530 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return t.render(c)
+[Sun Sep 18 02:42:51.875536 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/base.py", line 210, in render
+[Sun Sep 18 02:42:51.875539 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return self._render(context)
+[Sun Sep 18 02:42:51.875544 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/base.py", line 202, in _render
+[Sun Sep 18 02:42:51.875547 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return self.nodelist.render(context)
+[Sun Sep 18 02:42:51.875552 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render
+[Sun Sep 18 02:42:51.875554 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     bit = self.render_node(node, context)
+[Sun Sep 18 02:42:51.875560 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/debug.py", line 79, in render_node
+[Sun Sep 18 02:42:51.875562 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return node.render(context)
+[Sun Sep 18 02:42:51.875568 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/debug.py", line 89, in render
+[Sun Sep 18 02:42:51.875570 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     output = self.filter_expression.resolve(context)
+[Sun Sep 18 02:42:51.875576 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/base.py", line 675, in resolve
+[Sun Sep 18 02:42:51.875578 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     new_obj = func(obj, *arg_vals)
+[Sun Sep 18 02:42:51.875584 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/template/defaultfilters.py", line 776, in date
+[Sun Sep 18 02:42:51.875586 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return formats.date_format(value, arg)
+[Sun Sep 18 02:42:51.875596 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/formats.py", line 156, in date_format
+[Sun Sep 18 02:42:51.875599 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return dateformat.format(value, get_format(format or 'DATE_FORMAT', use_l10n=use_l10n))
+[Sun Sep 18 02:42:51.875605 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/dateformat.py", line 367, in format
+[Sun Sep 18 02:42:51.875607 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return df.format(format_string)
+[Sun Sep 18 02:42:51.875613 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/dateformat.py", line 37, in format
+[Sun Sep 18 02:42:51.875615 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     pieces.append(force_text(getattr(self, piece)()))
+[Sun Sep 18 02:42:51.875621 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/dateformat.py", line 292, in r
+[Sun Sep 18 02:42:51.875623 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return self.format('D, j M Y H:i:s O')
+[Sun Sep 18 02:42:51.875629 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/dateformat.py", line 37, in format
+[Sun Sep 18 02:42:51.875631 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     pieces.append(force_text(getattr(self, piece)()))
+[Sun Sep 18 02:42:51.875637 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/encoding.py", line 90, in force_text
+[Sun Sep 18 02:42:51.875639 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     s = six.text_type(s)
+[Sun Sep 18 02:42:51.875645 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 140, in __text_cast
+[Sun Sep 18 02:42:51.875647 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return func(*self.__args, **self.__kw)
+[Sun Sep 18 02:42:51.875653 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/__init__.py", line 84, in ugettext
+[Sun Sep 18 02:42:51.875655 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return _trans.ugettext(message)
+[Sun Sep 18 02:42:51.875661 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 322, in gettext
+[Sun Sep 18 02:42:51.875663 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     return do_translate(message, 'gettext')
+[Sun Sep 18 02:42:51.875669 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 305, in do_translate
+[Sun Sep 18 02:42:51.875672 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     _default = _default or translation(settings.LANGUAGE_CODE)
+[Sun Sep 18 02:42:51.875677 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 207, in translation
+[Sun Sep 18 02:42:51.875680 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     _translations[language] = DjangoTranslation(language)
+[Sun Sep 18 02:42:51.875685 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 117, in __init__
+[Sun Sep 18 02:42:51.875688 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     self._add_installed_apps_translations()
+[Sun Sep 18 02:42:51.875693 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]   File "/usr/lib/python3/dist-packages/django/utils/translation/trans_real.py", line 165, in _add_installed_apps_translations
+[Sun Sep 18 02:42:51.875696 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342]     "The translation infrastructure cannot be initialized before the "
+[Sun Sep 18 02:42:51.875712 2016] [wsgi:error] [pid 14637] [client 5.167.92.244:61342] django.core.exceptions.AppRegistryNotReady: The translation infrastructure cannot be initialized before the apps registry is ready. Check that you don't make non-lazy gettext calls at import time.
+[Sun Sep 18 10:57:43.585968 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779] mod_wsgi (pid=14774): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 10:57:43.586040 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779] mod_wsgi (pid=14774): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 10:57:43.586592 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779] Traceback (most recent call last):
+[Sun Sep 18 10:57:43.586635 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/web/siteproject/siteproject/django.wsgi", line 15, in <module>
+[Sun Sep 18 10:57:43.586640 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     application = get_wsgi_application()
+[Sun Sep 18 10:57:43.586647 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 10:57:43.586650 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     django.setup()
+[Sun Sep 18 10:57:43.586656 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 17, in setup
+[Sun Sep 18 10:57:43.586659 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sun Sep 18 10:57:43.586665 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 10:57:43.586668 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     self._setup(name)
+[Sun Sep 18 10:57:43.586673 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 10:57:43.586676 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 10:57:43.586682 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 10:57:43.586685 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 10:57:43.586690 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 10:57:43.586693 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 10:57:43.586699 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 10:57:43.586705 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 10:57:43.586711 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 10:57:43.586762 2016] [wsgi:error] [pid 14774] [client 5.167.92.244:49779] ImportError: No module named 'settings'
+[Sun Sep 18 11:10:00.533522 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216] mod_wsgi (pid=14950): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 11:10:00.533593 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216] mod_wsgi (pid=14950): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 11:10:00.534175 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216] Traceback (most recent call last):
+[Sun Sep 18 11:10:00.534231 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/web/siteproject/siteproject/django.wsgi", line 15, in <module>
+[Sun Sep 18 11:10:00.534236 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     application = get_wsgi_application()
+[Sun Sep 18 11:10:00.534243 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 11:10:00.534246 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     django.setup()
+[Sun Sep 18 11:10:00.534252 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 17, in setup
+[Sun Sep 18 11:10:00.534255 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sun Sep 18 11:10:00.534260 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 11:10:00.534263 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     self._setup(name)
+[Sun Sep 18 11:10:00.534268 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 11:10:00.534271 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 11:10:00.534277 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 11:10:00.534279 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 11:10:00.534285 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 11:10:00.534288 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 11:10:00.534293 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 11:10:00.534299 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 11:10:00.534305 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Sun Sep 18 11:10:00.534311 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 11:10:00.534317 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 11:10:00.534323 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 11:10:00.534329 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 11:10:00.534349 2016] [wsgi:error] [pid 14950] [client 5.167.92.244:53216] ImportError: No module named 'siteproject'
+[Sun Sep 18 11:20:45.393234 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295] mod_wsgi (pid=15206): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 11:20:45.393330 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295] mod_wsgi (pid=15206): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 11:20:45.393890 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295] Traceback (most recent call last):
+[Sun Sep 18 11:20:45.393931 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/web/siteproject/siteproject/django.wsgi", line 9, in <module>
+[Sun Sep 18 11:20:45.393936 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     application = get_wsgi_application()
+[Sun Sep 18 11:20:45.393951 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 11:20:45.393955 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     django.setup()
+[Sun Sep 18 11:20:45.393961 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 17, in setup
+[Sun Sep 18 11:20:45.393964 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sun Sep 18 11:20:45.393969 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 48, in __getattr__
+[Sun Sep 18 11:20:45.393972 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     self._setup(name)
+[Sun Sep 18 11:20:45.393977 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 44, in _setup
+[Sun Sep 18 11:20:45.393980 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     self._wrapped = Settings(settings_module)
+[Sun Sep 18 11:20:45.393985 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3/dist-packages/django/conf/__init__.py", line 92, in __init__
+[Sun Sep 18 11:20:45.393988 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Sep 18 11:20:45.393994 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 11:20:45.393996 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 11:20:45.394002 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 11:20:45.394008 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 11:20:45.394014 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Sun Sep 18 11:20:45.394031 2016] [wsgi:error] [pid 15206] [client 5.167.92.244:56295] ImportError: No module named 'settings'
+[Sun Sep 18 03:57:22.803435 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132] mod_wsgi (pid=26545): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 03:57:22.803507 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132] mod_wsgi (pid=26545): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 03:57:22.805233 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132] Traceback (most recent call last):
+[Sun Sep 18 03:57:22.805307 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 03:57:22.805312 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     application = get_wsgi_application()
+[Sun Sep 18 03:57:22.805340 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 03:57:22.805346 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     django.setup()
+[Sun Sep 18 03:57:22.805353 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 03:57:22.805356 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 03:57:22.805362 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 03:57:22.805374 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     app_config.import_models(all_models)
+[Sun Sep 18 03:57:22.805380 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 03:57:22.805383 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 03:57:22.805389 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 03:57:22.805391 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 03:57:22.805397 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:57:22.805403 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:57:22.805409 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 03:57:22.805415 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 03:57:22.805421 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 03:57:22.805428 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 03:57:22.805434 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 03:57:22.805436 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     class Permission(models.Model):
+[Sun Sep 18 03:57:22.805442 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 03:57:22.805445 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 03:57:22.805450 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 03:57:22.805453 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     value.contribute_to_class(cls, name)
+[Sun Sep 18 03:57:22.805458 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 03:57:22.805461 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 03:57:22.805467 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 03:57:22.805469 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 03:57:22.805475 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 03:57:22.805478 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     self.ensure_defaults(alias)
+[Sun Sep 18 03:57:22.805483 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 03:57:22.805486 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     conn = self.databases[alias]
+[Sun Sep 18 03:57:22.805491 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 03:57:22.805497 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 03:57:22.805503 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 03:57:22.805506 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 03:57:22.805523 2016] [wsgi:error] [pid 26545] [client 5.167.92.244:50132] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 03:57:37.755767 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198] mod_wsgi (pid=26553): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 03:57:37.755835 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198] mod_wsgi (pid=26553): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 03:57:37.757575 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198] Traceback (most recent call last):
+[Sun Sep 18 03:57:37.757649 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 03:57:37.757655 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     application = get_wsgi_application()
+[Sun Sep 18 03:57:37.757662 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 03:57:37.757665 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     django.setup()
+[Sun Sep 18 03:57:37.757671 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 03:57:37.757674 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 03:57:37.757679 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 03:57:37.757682 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     app_config.import_models(all_models)
+[Sun Sep 18 03:57:37.757688 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 03:57:37.757690 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 03:57:37.757696 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 03:57:37.757698 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 03:57:37.757704 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 03:57:37.757710 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 03:57:37.757716 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 03:57:37.757722 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 03:57:37.757728 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 03:57:37.757734 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 03:57:37.757740 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 03:57:37.757751 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     class Permission(models.Model):
+[Sun Sep 18 03:57:37.757757 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 03:57:37.757760 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 03:57:37.757766 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 03:57:37.757769 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     value.contribute_to_class(cls, name)
+[Sun Sep 18 03:57:37.757774 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 03:57:37.757777 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 03:57:37.757782 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 03:57:37.757785 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 03:57:37.757790 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 03:57:37.757793 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     self.ensure_defaults(alias)
+[Sun Sep 18 03:57:37.757799 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 03:57:37.757801 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     conn = self.databases[alias]
+[Sun Sep 18 03:57:37.757807 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 03:57:37.757809 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 03:57:37.757815 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 03:57:37.757817 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 03:57:37.757833 2016] [wsgi:error] [pid 26553] [client 5.167.92.244:50198] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:00:28.434951 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837] mod_wsgi (pid=26547): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:00:28.435026 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837] mod_wsgi (pid=26547): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:00:28.436785 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837] Traceback (most recent call last):
+[Sun Sep 18 04:00:28.436860 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:00:28.436865 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     application = get_wsgi_application()
+[Sun Sep 18 04:00:28.436873 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:00:28.436876 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     django.setup()
+[Sun Sep 18 04:00:28.436882 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:00:28.436893 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:00:28.436899 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:00:28.436902 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     app_config.import_models(all_models)
+[Sun Sep 18 04:00:28.436908 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:00:28.436911 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:00:28.436916 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:00:28.436919 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:00:28.436924 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:00:28.436931 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:00:28.436937 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:00:28.436943 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:00:28.436949 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:00:28.436955 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:00:28.436961 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:00:28.436964 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     class Permission(models.Model):
+[Sun Sep 18 04:00:28.436969 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:00:28.436972 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:00:28.436978 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:00:28.436980 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:00:28.436986 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:00:28.436989 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:00:28.436995 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:00:28.436997 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:00:28.437003 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:00:28.437006 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     self.ensure_defaults(alias)
+[Sun Sep 18 04:00:28.437011 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:00:28.437017 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     conn = self.databases[alias]
+[Sun Sep 18 04:00:28.437023 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:00:28.437026 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:00:28.437032 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:00:28.437035 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:00:28.437052 2016] [wsgi:error] [pid 26547] [client 5.167.92.244:50837] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:00:45.677692 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838] mod_wsgi (pid=26551): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:00:45.677767 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838] mod_wsgi (pid=26551): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:00:45.679552 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838] Traceback (most recent call last):
+[Sun Sep 18 04:00:45.679628 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:00:45.679634 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     application = get_wsgi_application()
+[Sun Sep 18 04:00:45.679641 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:00:45.679644 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     django.setup()
+[Sun Sep 18 04:00:45.679650 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:00:45.679653 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:00:45.679659 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:00:45.679662 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     app_config.import_models(all_models)
+[Sun Sep 18 04:00:45.679668 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:00:45.679671 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:00:45.679677 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:00:45.679680 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:00:45.679685 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:00:45.679692 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:00:45.679698 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:00:45.679704 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:00:45.679711 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:00:45.679726 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:00:45.679733 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:00:45.679735 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     class Permission(models.Model):
+[Sun Sep 18 04:00:45.679741 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:00:45.679744 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:00:45.679749 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:00:45.679752 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:00:45.679758 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:00:45.679760 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:00:45.679766 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:00:45.679769 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:00:45.679774 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:00:45.679777 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     self.ensure_defaults(alias)
+[Sun Sep 18 04:00:45.679783 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:00:45.679785 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     conn = self.databases[alias]
+[Sun Sep 18 04:00:45.679791 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:00:45.679793 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:00:45.679799 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:00:45.679802 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:00:45.679818 2016] [wsgi:error] [pid 26551] [client 5.167.92.244:50838] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:02:29.076635 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306] mod_wsgi (pid=26630): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:02:29.076712 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306] mod_wsgi (pid=26630): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:02:29.078473 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306] Traceback (most recent call last):
+[Sun Sep 18 04:02:29.078549 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:02:29.078554 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     application = get_wsgi_application()
+[Sun Sep 18 04:02:29.078561 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:02:29.078574 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     django.setup()
+[Sun Sep 18 04:02:29.078581 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:02:29.078584 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:02:29.078590 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:02:29.078593 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     app_config.import_models(all_models)
+[Sun Sep 18 04:02:29.078598 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:02:29.078601 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:02:29.078606 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:02:29.078609 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:02:29.078614 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:02:29.078621 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:02:29.078627 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:02:29.078633 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:02:29.078639 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:02:29.078645 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:02:29.078651 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:02:29.078654 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     class Permission(models.Model):
+[Sun Sep 18 04:02:29.078659 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:02:29.078662 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:02:29.078667 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:02:29.078670 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:02:29.078675 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:02:29.078678 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:02:29.078684 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:02:29.078686 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:02:29.078692 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:02:29.078697 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     self.ensure_defaults(alias)
+[Sun Sep 18 04:02:29.078703 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:02:29.078706 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     conn = self.databases[alias]
+[Sun Sep 18 04:02:29.078712 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:02:29.078714 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:02:29.078720 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:02:29.078722 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:02:29.078739 2016] [wsgi:error] [pid 26630] [client 5.167.92.244:51306] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:21:28.651882 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722] mod_wsgi (pid=26631): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:21:28.651960 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722] mod_wsgi (pid=26631): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:21:28.653702 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722] Traceback (most recent call last):
+[Sun Sep 18 04:21:28.653776 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:21:28.653782 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     application = get_wsgi_application()
+[Sun Sep 18 04:21:28.653789 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:21:28.653793 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     django.setup()
+[Sun Sep 18 04:21:28.653799 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:21:28.653802 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:21:28.653808 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:21:28.653811 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     app_config.import_models(all_models)
+[Sun Sep 18 04:21:28.653817 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:21:28.653820 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:21:28.653826 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:21:28.653829 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:21:28.653834 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:21:28.653841 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:21:28.653847 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:21:28.653863 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:21:28.653869 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:21:28.653876 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:21:28.653882 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:21:28.653884 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     class Permission(models.Model):
+[Sun Sep 18 04:21:28.653890 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:21:28.653893 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:21:28.653898 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:21:28.653901 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:21:28.653906 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:21:28.653909 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:21:28.653915 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:21:28.653918 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:21:28.653923 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:21:28.653926 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     self.ensure_defaults(alias)
+[Sun Sep 18 04:21:28.653931 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:21:28.653934 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     conn = self.databases[alias]
+[Sun Sep 18 04:21:28.653939 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:21:28.653942 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:21:28.653948 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:21:28.653950 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:21:28.653966 2016] [wsgi:error] [pid 26631] [client 5.167.92.244:55722] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:35:37.758866 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966] mod_wsgi (pid=26633): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:35:37.758944 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966] mod_wsgi (pid=26633): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:35:37.760705 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966] Traceback (most recent call last):
+[Sun Sep 18 04:35:37.760781 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:35:37.760794 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     application = get_wsgi_application()
+[Sun Sep 18 04:35:37.760802 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:35:37.760805 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     django.setup()
+[Sun Sep 18 04:35:37.760811 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:35:37.760814 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:35:37.760819 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:35:37.760822 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     app_config.import_models(all_models)
+[Sun Sep 18 04:35:37.760827 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:35:37.760830 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:35:37.760835 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:35:37.760838 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:35:37.760844 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:35:37.760850 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:35:37.760856 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:35:37.760862 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:35:37.760868 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:35:37.760874 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:35:37.760880 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:35:37.760883 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     class Permission(models.Model):
+[Sun Sep 18 04:35:37.760889 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:35:37.760891 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:35:37.760897 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:35:37.760899 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:35:37.760905 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:35:37.760908 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:35:37.760913 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:35:37.760919 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:35:37.760925 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:35:37.760928 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     self.ensure_defaults(alias)
+[Sun Sep 18 04:35:37.760933 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:35:37.760936 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     conn = self.databases[alias]
+[Sun Sep 18 04:35:37.760941 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:35:37.760944 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:35:37.760950 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:35:37.760952 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:35:37.760970 2016] [wsgi:error] [pid 26633] [client 5.167.92.244:58966] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:38:14.634794 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571] mod_wsgi (pid=26796): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:38:14.634872 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571] mod_wsgi (pid=26796): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:38:14.636704 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571] Traceback (most recent call last):
+[Sun Sep 18 04:38:14.636781 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:38:14.636786 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     application = get_wsgi_application()
+[Sun Sep 18 04:38:14.636794 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:38:14.636797 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     django.setup()
+[Sun Sep 18 04:38:14.636803 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:38:14.636806 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:38:14.636812 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:38:14.636815 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     app_config.import_models(all_models)
+[Sun Sep 18 04:38:14.636820 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:38:14.636823 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:38:14.636829 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:38:14.636832 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:38:14.636837 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:38:14.636855 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:38:14.636862 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:38:14.636868 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:38:14.636874 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:38:14.636880 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:38:14.636886 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:38:14.636889 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     class Permission(models.Model):
+[Sun Sep 18 04:38:14.636894 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:38:14.636897 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:38:14.636903 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:38:14.636905 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:38:14.636911 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:38:14.636914 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:38:14.636919 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:38:14.636922 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:38:14.636927 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:38:14.636930 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     self.ensure_defaults(alias)
+[Sun Sep 18 04:38:14.636935 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:38:14.636938 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     conn = self.databases[alias]
+[Sun Sep 18 04:38:14.636943 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:38:14.636946 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:38:14.636951 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:38:14.636954 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:38:14.636971 2016] [wsgi:error] [pid 26796] [client 5.167.92.244:59571] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:38:30.816506 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644] mod_wsgi (pid=26800): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:38:30.816608 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644] mod_wsgi (pid=26800): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:38:30.818339 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644] Traceback (most recent call last):
+[Sun Sep 18 04:38:30.818412 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:38:30.818417 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     application = get_wsgi_application()
+[Sun Sep 18 04:38:30.818424 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:38:30.818427 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     django.setup()
+[Sun Sep 18 04:38:30.818433 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:38:30.818436 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:38:30.818441 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:38:30.818444 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     app_config.import_models(all_models)
+[Sun Sep 18 04:38:30.818449 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:38:30.818452 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:38:30.818457 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:38:30.818460 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:38:30.818466 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:38:30.818472 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:38:30.818478 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:38:30.818484 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:38:30.818490 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:38:30.818496 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:38:30.818502 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:38:30.818505 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     class Permission(models.Model):
+[Sun Sep 18 04:38:30.818510 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:38:30.818513 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:38:30.818519 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:38:30.818521 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:38:30.818562 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:38:30.818572 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:38:30.818579 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:38:30.818582 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:38:30.818588 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 238, in __getitem__
+[Sun Sep 18 04:38:30.818591 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     self.ensure_defaults(alias)
+[Sun Sep 18 04:38:30.818596 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 169, in ensure_defaults
+[Sun Sep 18 04:38:30.818599 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     conn = self.databases[alias]
+[Sun Sep 18 04:38:30.818604 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/utils/functional.py", line 59, in __get__
+[Sun Sep 18 04:38:30.818607 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     res = instance.__dict__[self.name] = self.func(instance)
+[Sun Sep 18 04:38:30.818613 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 160, in databases
+[Sun Sep 18 04:38:30.818615 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644]     raise ImproperlyConfigured("You must define a '%s' database" % DEFAULT_DB_ALIAS)
+[Sun Sep 18 04:38:30.818633 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:59644] django.core.exceptions.ImproperlyConfigured: You must define a 'default' database
+[Sun Sep 18 04:45:02.535872 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115] mod_wsgi (pid=26800): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:45:02.535935 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115] mod_wsgi (pid=26800): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:45:02.536050 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115] Traceback (most recent call last):
+[Sun Sep 18 04:45:02.536082 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:45:02.536086 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]     application = get_wsgi_application()
+[Sun Sep 18 04:45:02.536093 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:45:02.536116 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]     django.setup()
+[Sun Sep 18 04:45:02.536130 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:45:02.536133 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:45:02.536139 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 78, in populate
+[Sun Sep 18 04:45:02.536142 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115]     raise RuntimeError("populate() isn't reentrant")
+[Sun Sep 18 04:45:02.536160 2016] [wsgi:error] [pid 26800] [client 5.167.92.244:61115] RuntimeError: populate() isn't reentrant
+[Sun Sep 18 04:45:33.424235 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235] mod_wsgi (pid=26911): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:45:33.424299 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235] mod_wsgi (pid=26911): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:45:33.426085 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235] Traceback (most recent call last):
+[Sun Sep 18 04:45:33.426160 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:45:33.426164 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     application = get_wsgi_application()
+[Sun Sep 18 04:45:33.426171 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:45:33.426174 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     django.setup()
+[Sun Sep 18 04:45:33.426180 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:45:33.426183 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:45:33.426188 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 108, in populate
+[Sun Sep 18 04:45:33.426191 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     app_config.import_models(all_models)
+[Sun Sep 18 04:45:33.426197 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/apps/config.py", line 198, in import_models
+[Sun Sep 18 04:45:33.426199 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     self.models_module = import_module(models_module_name)
+[Sun Sep 18 04:45:33.426205 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:45:33.426207 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:45:33.426213 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:45:33.426219 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:45:33.426225 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:45:33.426232 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:45:33.426238 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:45:33.426244 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:45:33.426250 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/contrib/auth/models.py", line 41, in <module>
+[Sun Sep 18 04:45:33.426253 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     class Permission(models.Model):
+[Sun Sep 18 04:45:33.426258 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 139, in __new__
+[Sun Sep 18 04:45:33.426261 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     new_class.add_to_class('_meta', Options(meta, **kwargs))
+[Sun Sep 18 04:45:33.426266 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 324, in add_to_class
+[Sun Sep 18 04:45:33.426269 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     value.contribute_to_class(cls, name)
+[Sun Sep 18 04:45:33.426275 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/models/options.py", line 250, in contribute_to_class
+[Sun Sep 18 04:45:33.426282 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+[Sun Sep 18 04:45:33.426289 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/__init__.py", line 36, in __getattr__
+[Sun Sep 18 04:45:33.426292 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     return getattr(connections[DEFAULT_DB_ALIAS], item)
+[Sun Sep 18 04:45:33.426297 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 241, in __getitem__
+[Sun Sep 18 04:45:33.426300 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     backend = load_backend(db['ENGINE'])
+[Sun Sep 18 04:45:33.426305 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/utils.py", line 112, in load_backend
+[Sun Sep 18 04:45:33.426308 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     return import_module('%s.base' % backend_name)
+[Sun Sep 18 04:45:33.426313 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Sep 18 04:45:33.426316 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Sep 18 04:45:33.426321 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Sep 18 04:45:33.426327 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Sep 18 04:45:33.426333 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Sep 18 04:45:33.426339 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Sep 18 04:45:33.426345 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Sep 18 04:45:33.426351 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Sep 18 04:45:33.426358 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]   File "/usr/lib/python3/dist-packages/django/db/backends/mysql/base.py", line 23, in <module>
+[Sun Sep 18 04:45:33.426360 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235]     import pymysql
+[Sun Sep 18 04:45:33.426377 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:61235] ImportError: No module named 'pymysql'
+[Sun Sep 18 04:50:20.288310 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316] mod_wsgi (pid=26911): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module.
+[Sun Sep 18 04:50:20.288371 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316] mod_wsgi (pid=26911): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'.
+[Sun Sep 18 04:50:20.288483 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316] Traceback (most recent call last):
+[Sun Sep 18 04:50:20.288515 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>
+[Sun Sep 18 04:50:20.288519 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]     application = get_wsgi_application()
+[Sun Sep 18 04:50:20.288526 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sun Sep 18 04:50:20.288529 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]     django.setup()
+[Sun Sep 18 04:50:20.288535 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup
+[Sun Sep 18 04:50:20.288563 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]     apps.populate(settings.INSTALLED_APPS)
+[Sun Sep 18 04:50:20.288576 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 78, in populate
+[Sun Sep 18 04:50:20.288579 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316]     raise RuntimeError("populate() isn't reentrant")
+[Sun Sep 18 04:50:20.288597 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:62316] RuntimeError: populate() isn't reentrant
+[Sun Sep 18 05:38:22.395547 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731] mod_wsgi (pid=26911): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module., referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395636 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731] mod_wsgi (pid=26911): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'., referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395836 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731] Traceback (most recent call last):, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395913 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395922 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]     application = get_wsgi_application(), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395932 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395935 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]     django.setup(), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395941 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395945 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]     apps.populate(settings.INSTALLED_APPS), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395951 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 78, in populate, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395954 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731]     raise RuntimeError("populate() isn't reentrant"), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:22.395971 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54731] RuntimeError: populate() isn't reentrant, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.561807 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755] mod_wsgi (pid=26911): Target WSGI script '/web/siteproject/siteproject/django.wsgi' cannot be loaded as Python module., referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.561898 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755] mod_wsgi (pid=26911): Exception occurred processing WSGI script '/web/siteproject/siteproject/django.wsgi'., referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562052 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755] Traceback (most recent call last):, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562087 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]   File "/web/siteproject/siteproject/django.wsgi", line 11, in <module>, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562092 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]     application = get_wsgi_application(), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562099 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]   File "/usr/lib/python3/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562114 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]     django.setup(), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562120 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]   File "/usr/lib/python3/dist-packages/django/__init__.py", line 18, in setup, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562124 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]     apps.populate(settings.INSTALLED_APPS), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562130 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]   File "/usr/lib/python3/dist-packages/django/apps/registry.py", line 78, in populate, referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562133 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755]     raise RuntimeError("populate() isn't reentrant"), referer: http://geolone.tk:777/admin/auth/user/
+[Sun Sep 18 05:38:26.562150 2016] [wsgi:error] [pid 26911] [client 5.167.92.244:54755] RuntimeError: populate() isn't reentrant, referer: http://geolone.tk:777/admin/auth/user/
